@@ -1,5 +1,5 @@
 import React from 'react';
-import mockData from "../assets/scripts/mock-data.js";
+import {AppModel, ThingModel, PostModel} from "../assets/scripts/model.js";
 
 import Navigation from "./navigation/navigation-top.jsx"
 import Footer from "./footer/footer.jsx"
@@ -11,7 +11,7 @@ class CthDocumentation extends React.Component{
 	}
 
 	componentWillMount() {
-		console.log(mockData);
+		console.log(new AppModel(40, 5));
 	}
 
     render() {
