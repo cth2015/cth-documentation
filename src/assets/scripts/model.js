@@ -1,5 +1,5 @@
 class Thing {
-  constructor(id, title, type, date, tags, category, keyConcept, shortDescription, description, people, location, relations, importance){
+  constructor(id, title, type, date, tags, category, keyConcept, shortDescription, description, image, people, location, relations, importance){
     this.id = id;
     this.title = title;
     this.date = date;
@@ -8,6 +8,7 @@ class Thing {
     this.keyConcept = keyConcept || "";
     this.shortDescription = description || "";
     this.description = description || "";
+    this.image = image || "";
     this.people = people || [];
     this.location = location || [];
     this.relations = relations || [];
