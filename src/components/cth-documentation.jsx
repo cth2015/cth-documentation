@@ -1,5 +1,5 @@
 import React from 'react';
-import {AppModel, ThingModel, PostModel} from "../assets/scripts/model.js";
+import {App, Entity} from "../assets/scripts/model.js";
 
 import Navigation from "./navigation/navigation-top.jsx"
 import Footer from "./footer/footer.jsx"
@@ -8,7 +8,7 @@ import Post from "./post/post.jsx"
 class CthDocumentation extends React.Component{
 	constructor(props){
 		super(props);
-		this.state = { appData: new AppModel(40, 5) };
+		this.state = { appData: new App(40, 3) };
 		console.log('constructor', this.state.appData);
 	}
 

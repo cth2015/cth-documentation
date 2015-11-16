@@ -1,0 +1,21 @@
+{
+	"story": {
+		"teaching": {
+			"cth": {},
+			"fotd": {},
+			"ast": {}
+		},
+		"research": {
+			"augM": {},
+			"hdat": {}
+		},
+		"platform": {
+			"iteration-one": {},
+			"iteration-two": {},
+			"iteration-three": {}
+		},
+		"blog": [{},{},{}]
+	},
+	"people": [{},{},{}],
+	"companies": [{},{},{}]
+}
