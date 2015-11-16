@@ -1,18 +1,19 @@
 import faker from "faker";
 
 class ThingModel {
-  constructor(id, title, type, date, tags, category, keyConcept, shortDescription, description, image, people, location, relations, importance){
+  constructor(id, title, date, category, tags, keyConcept, shortDescription, description, image, people, location, link, relations, importance){
     this.id = id;
     this.title = title;
     this.date = date;
-    this.tags = tags || [];
     this.category = category || "";
+    this.tags = tags || [];
     this.keyConcept = keyConcept || "";
     this.shortDescription = description || "";
     this.description = description || "";
     this.image = image || "";
     this.people = people || [];
     this.location = location || [];
+    this.link = link || "";
     this.relations = relations || [];
     this.importance = importance || 1;
   };
@@ -34,10 +35,33 @@ class AppModel {
 		this.things = [];
 		this.posts = [];
 		for (var i = 0; i < numThings; i++){
-			this.things.push(new ThingModel());
+			this.things.push(new ThingModel(
+				faker.random.number(100000000000000),
+				faker.lorem.sentence(5),
+				faker.date.between("01-01-2014", "01-01-2016"),
+				"event",
+				"nomination",
+				"Collaboration",
+				faker.lorem.sentences(2),
+				faker.lorem.paragraph(2),
+				faker.image.cats(500, 500),
+				[faker.name.firstName() + " " + faker.name.lastName(), faker.name.firstName() + faker.name.lastName()],
+				faker.internet.url(),
+				1,
+				faker.random.number(5)
+			));
 		}
+
+		// constructor(id, title, type, date, author, content)
 		for (var i = 0; i < numPosts; i++){
-			this.posts.push(new PostModel());
+			this.posts.push(new PostModel(
+				faker.random.number(100000000000000),
+				faker.lorem.sentence(5),
+				"story",
+				faker.date.between("01-01-2014", "01-01-2016"),
+				(faker.name.firstName() + " " + faker.name.lastName()),
+				faker.lorem.paragraph(2)
+			));
 		}
 	}
 }
