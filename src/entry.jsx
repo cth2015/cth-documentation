@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import "babel/polyfill";
 import "./assets/styles/app.scss";
 
-import HackingHistorians from "./components/HackingHistorians.jsx";
+import CthDocumentation from "./components/cth-documentation.jsx";
 
-ReactDOM.render(<HackingHistorians />, document.body);
+ReactDOM.render(<CthDocumentation />, document.body);
