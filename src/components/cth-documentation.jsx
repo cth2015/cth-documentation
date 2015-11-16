@@ -8,18 +8,17 @@ import Post from "./post/post.jsx"
 class CthDocumentation extends React.Component{
 	constructor(props){
 		super(props);
-	}
-
-	componentWillMount() {
-		console.log(new AppModel(40, 5));
+		this.state = { appData: new AppModel(40, 5) };
+		console.log('constructor', this.state.appData);
 	}
 
     render() {
+		let appData = this.state.appData;
  		return (
  			<div className="app-container">
  				<Navigation />
- 				{[0,1,2,3,4].map(function(content, key){
- 					return (<Post key={key} content={content}/>)
+ 				{appData.posts.map(function(post, key){
+ 					return (<Post key={key} post={post}/>)
  				})}
  				<Footer />
 			</div>
