@@ -20,13 +20,14 @@ class ThingModel {
 };
 
 class PostModel {
-	constructor(id, title, type, date, author, content){
+	constructor(id, title, type, date, author, content, relations){
 		this.id = id;
 		this.title = title;
 		this.type = type;
 		this.date = date;
 		this.author = author;
 		this.content = content;
+		this.relations = relations;
 	}
 }
 
@@ -36,7 +37,7 @@ class AppModel {
 		this.posts = [];
 		for (var i = 0; i < numThings; i++){
 			this.things.push(new ThingModel(
-				faker.random.number(100000000000000),
+				faker.random.uuid(),
 				faker.lorem.sentence(5),
 				faker.date.between("01-01-2014", "01-01-2016"),
 				"event",
@@ -53,14 +54,23 @@ class AppModel {
 		}
 
 		// constructor(id, title, type, date, author, content)
+
+
 		for (var i = 0; i < numPosts; i++){
 			this.posts.push(new PostModel(
-				faker.random.number(100000000000000),
+				faker.random.uuid(),
 				faker.lorem.sentence(5),
 				"story",
 				faker.date.between("01-01-2014", "01-01-2016"),
 				(faker.name.firstName() + " " + faker.name.lastName()),
-				faker.lorem.paragraph(2)
+				faker.lorem.paragraphs(5), 
+				(function (numThings){ 
+					let relationsArray = [];
+					for (var j = 0; j < faker.random.number(5, 10); j++){
+						faker.random.number(numThings);
+					}
+					return relationsArray;
+				})(numThings)
 			));
 		}
 	}
