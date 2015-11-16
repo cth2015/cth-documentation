@@ -66,8 +66,8 @@ class AppModel {
 				faker.lorem.paragraphs(5), 
 				(function (numThings){ 
 					let relationsArray = [];
-					for (var j = 0; j < faker.random.number(5, 10); j++){
-						faker.random.number(numThings);
+					for (var j = 0; j < faker.random.number(15); j++){
+						relationsArray.push(faker.random.number(numThings) - 1);
 					}
 					return relationsArray;
 				})(numThings)
