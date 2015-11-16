@@ -1,3 +1,16 @@
+class App {
+	constructor(numThings, numPosts){
+		this.things = [];
+		this.posts = [];
+		for (var i = 0; i < numThings; i++){
+			this.things.push(new Thing());
+		}
+		for (var i = 0; i < numThings; i++){
+			this.posts.push(new Post());
+		}
+	}
+}
+
 class Thing {
   constructor(id, title, type, date, tags, category, keyConcept, shortDescription, description, image, people, location, relations, importance){
     this.id = id;
