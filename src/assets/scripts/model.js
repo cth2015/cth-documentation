@@ -12,7 +12,6 @@ class Entity {
     this.image = image || "";
     this.link = link || "";
     this.people = people || [];
-    this.projects = projects || [];
     this.importance = importance || 1;
   }
 };
@@ -20,29 +19,49 @@ class Entity {
 function entityFaker(){
 	return (new Entity(
 		faker.random.uuid(),
-		faker.lorem.sentence(5),
+		faker.lorem.sentence(3),
 		faker.date.between("01-01-2014", "01-01-2016"),
 		"research",
 		["nomination", "Rijksmuseum"],
 		faker.lorem.sentences(2),
-		faker.lorem.paragraph(2),
+		faker.lorem.paragraphs(5),
 		faker.image.cats(500, 500),
-		[faker.name.firstName() + " " + faker.name.lastName(), faker.name.firstName() + faker.name.lastName()],
 		faker.internet.url(),
-		1,
+		[faker.name.firstName() + " " + faker.name.lastName(), faker.name.firstName() + faker.name.lastName()],
 		faker.random.number(5)
 	));
 }
 
 class App {
-	constructor(numProjects, numPosts){
-		this.projects = {teaching: [], research: [], platform: [], fotd: [], cth: [], ast: []};
-		this.partners = [];
+	constructor(numPosts, numPeople, numCompanies){
+		this.story = {
+			"teaching": {
+				"cth": entityFaker(),
+				"fotd": entityFaker(),
+				"ast": entityFaker()
+			},
+			"research": {
+				"augM": entityFaker(),
+				"hdat": entityFaker()
+			},
+			"platform": {
+				"iteration-one": entityFaker(),
+				"iteration-two": entityFaker(),
+				"iteration-three": entityFaker()
+			},
+			"blog": []
+		};
 		this.people = [];
-		this.posts = [];
+		this.companies = [];
 
-		for (var i = 0; i < numProjects; i++){
-			this.projects.push(entityFaker());
+		for (var i = 0; i < numPosts; i++){
+			this.story.blog.push(entityFaker());
+		}
+		for (var i = 0; i < numPeople; i++){
+			this.people.push(entityFaker());
+		}
+		for (var i = 0; i < numCompanies; i++){
+			this.companies.push(entityFaker());
 		}
 	}
 }

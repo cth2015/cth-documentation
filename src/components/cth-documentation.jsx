@@ -8,7 +8,7 @@ import Post from "./post/post.jsx"
 class CthDocumentation extends React.Component{
 	constructor(props){
 		super(props);
-		this.state = { appData: new App(40, 3) };
+		this.state = { appData: new App(5, 20, 10) };
 		console.log('constructor', this.state.appData);
 	}
 
@@ -17,7 +17,7 @@ class CthDocumentation extends React.Component{
  		return (
  			<div className="app-container">
  				<Navigation />
- 				{appData.posts.map(function(post, key){
+ 				{appData.story.blog.map(function(post, key){
  					return (<Post key={key} post={post}/>)
  				})}
  				<Footer />
