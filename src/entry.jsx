@@ -5,4 +5,5 @@ import "./assets/styles/app.scss";
 
 import CthDocumentation from "./components/cth-documentation.jsx";
 
-ReactDOM.render(<CthDocumentation />, document.body);
+let container = document.querySelector('.app-react-container');
+ReactDOM.render(<CthDocumentation />, container);
