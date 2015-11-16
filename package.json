@@ -1,9 +1,9 @@
 {
-  "name": "Hacking-Historians-App",
+  "name": "CTH-Documentation",
   "version": "1.0.0",
-  "description": "App for the Hack-a-LOD",
+  "description": "CTH - Documentation Website",
   "main": "bundle.js",
-  "author": "Erik van Zummeren, Robert-Jan Korteschiel",
+  "author": ["Robert-Jan Korteschiel", "Charlotte van Oostrum", "Marijn Koolen", "Jan Hein Hoogstad"],
   "license": "MIT",
   "engines": {
     "iojs": ">= 1.6.2"
