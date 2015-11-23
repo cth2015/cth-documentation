@@ -3,14 +3,12 @@
 		{
 			"title": "Coding The Humanities",
 			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-			"link": "coding-the-humanities",
-			"image": "http://lorempixel.com/1440/720/people"
+			"link": "coding-the-humanities"
 		},
 		{
 			"title": "Exporation",
 			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 			"link": "exploration",
-			"image": "http://lorempixel.com/1440/720/transport",
 			"courses": [
 				{
 					"title": "Coding The Humanities - Course",
@@ -28,13 +26,12 @@
 			]
 		},
 		{
-			"image": "http://lorempixel.com/1440/720/transport"
+			"image": "http://dummyimage.com/1440x720/fff/000.png"
 		},
 		{
 			"title": "Research",
 			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 			"link": "research",
-			"image": "http://lorempixel.com/1440/720/cats",
 			"blog":[
 				{
 					"title": "First Post",
@@ -69,13 +66,12 @@
 			]
 		},
 		{
-			"image": "http://lorempixel.com/1440/720/transport"
+			"image": "http://dummyimage.com/1440x720/fff/000.png"
 		},
 		{
 			"title": "Interfaces",
 			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 			"link": "interfaces",
-			"image": "http://lorempixel.com/1440/720/technics",
 			"iterations": [
 				{
 					"title": "Student Iteration",
@@ -93,7 +89,7 @@
 			]
 		},
 		{
-			"image": "http://lorempixel.com/1440/720/transport"
+			"image": "http://dummyimage.com/1440x720/fff/000.png"
 		},
 		{
 			"title": "Partners",

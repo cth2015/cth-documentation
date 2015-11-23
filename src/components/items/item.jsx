@@ -8,7 +8,7 @@ class Item extends React.Component{
     render() {
     	let item = this.props.item;
  		return (
- 			<div className={"item " + item.link}> 
+ 			<div className={"item " + item.link} style={{backgroundImage: "src(" + item.image + ")"}}> 
  				<div className="item-info-container">
 	 				{item.title && <h1 className="item-info-header">{item.title}</h1> }
 	 				{item.text && <p className="item-info-text"> {item.text}</p>}
