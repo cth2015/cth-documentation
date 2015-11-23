@@ -25,7 +25,7 @@ function entityFaker(){
 		["nomination", "Rijksmuseum"],
 		faker.lorem.sentences(2),
 		faker.lorem.paragraphs(5),
-		faker.image.cats(500, 500),
+		faker.image.cats(1440, 720),
 		faker.internet.url(),
 		[faker.name.firstName() + " " + faker.name.lastName(), faker.name.firstName() + faker.name.lastName()],
 		faker.random.number(5)
@@ -35,33 +35,40 @@ function entityFaker(){
 class App {
 	constructor(numPosts, numPeople, numCompanies){
 		this.story = {
-			"teaching": {
-				"cth": entityFaker(),
-				"fotd": entityFaker(),
-				"ast": entityFaker()
+			"codingTheHumanities": {
+				"content": entityFaker(),
+			},
+			"exporation": {
+				"content": entityFaker(),
+				"pages": {
+					"cth": entityFaker(),
+					"fotd": entityFaker(),
+					"ast": entityFaker()
+				}
 			},
 			"research": {
-				"augM": entityFaker(),
-				"hdat": entityFaker()
+				"content": entityFaker(),
+				"blog":[]
+				"pages": {
+					"augM": entityFaker(),
+					"hdat": entityFaker()
+				}
 			},
-			"platform": {
-				"iteration-one": entityFaker(),
-				"iteration-two": entityFaker(),
-				"iteration-three": entityFaker()
+			"interfaces": {
+				"content": entityFaker(),
+				"pages": {
+					"iteration-one": entityFaker(),
+					"iteration-two": entityFaker(),
+					"iteration-three": entityFaker()
+				}
 			},
-			"blog": []
+			"partners": {
+				"content": entityFaker(),
+				"visualisation": {}
+			}
 		};
-		this.people = [];
-		this.companies = [];
-
 		for (var i = 0; i < numPosts; i++){
-			this.story.blog.push(entityFaker());
-		}
-		for (var i = 0; i < numPeople; i++){
-			this.people.push(entityFaker());
-		}
-		for (var i = 0; i < numCompanies; i++){
-			this.companies.push(entityFaker());
+			this.story.research.blog.push(entityFaker());
 		}
 	}
 }

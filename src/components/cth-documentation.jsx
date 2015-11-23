@@ -3,7 +3,7 @@ import {App, Entity} from "../assets/scripts/model.js";
 
 import Navigation from "./navigation/navigation-top.jsx"
 import Footer from "./footer/footer.jsx"
-import Post from "./post/post.jsx"
+import Item from "./post/item.jsx"
 
 class CthDocumentation extends React.Component{
 	constructor(props){
@@ -17,8 +17,8 @@ class CthDocumentation extends React.Component{
  		return (
  			<div className="app-container">
  				<Navigation />
- 				{appData.story.blog.map(function(post, key){
- 					return (<Post key={key} post={post}/>)
+ 				{appData.story.map(function(item, key){
+ 					return (<Item key={key} content={item.content}/>)
  				})}
  				<Footer />
 			</div>
