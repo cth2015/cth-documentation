@@ -9,9 +9,14 @@ class Item extends React.Component{
  		return (
  			<div className={"item " + item.link}> 
  				<div className="item-info-container">
-	 				<h1 className="item-info-header">{item.title}</h1>
-	 				<p className="item-info-text"> {item.text}</p>
- 					{item.pages && <PageButtonContainer pages={item.pages} /> }
+	 				{item.title && <h1 className="item-info-header">{item.title}</h1> }
+	 				{item.text && <p className="item-info-text"> {item.text}</p>}
+	 				{item.courses &&  <h3 className="item-info-header">Courses</h3>}
+ 					{item.courses && <PageButtonContainer pages={item.courses} /> }
+ 					{item.blog &&  <h3 className="item-info-header">Articles</h3>}
+ 					{item.blog && <PageButtonContainer pages={item.blog} /> }
+	 				{item.projects &&  <h3 className="item-info-header">Projects</h3>}
+ 					{item.projects && <PageButtonContainer pages={item.projects} /> }
  				</div>
  				{item.visualization && <Visualization vizData={item.visualization} />}
  			</div>

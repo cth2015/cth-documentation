@@ -6,7 +6,7 @@ class PageButtonContainer extends React.Component{
  		return (
  			<div className="page-button-container"> 
  				{pages.map((page, key)=>{
- 					return <button className="page-button" key={key} > {page.title} </button>
+ 					return <a className="page-button" key={key} > {page.title} </a>
  				})}
  			</div>
  		)

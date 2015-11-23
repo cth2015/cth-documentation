@@ -1,11 +1,18 @@
 .page-button-container {
-	margin-top: 100px;
 }
+
 .page-button {
 	display: block;
-	margin: 10px auto;
+	margin: 10px 0;
 	padding: 10px;
-	background: black;
-	color: white;
-	border: 0;
+	background: white;
+	border: 10px solid black;
+	color: black;
+	text-align: center;
+	&:visited {
+		color: black;
+	}
+	&:hover {
+		color: black;
+	}
 }
