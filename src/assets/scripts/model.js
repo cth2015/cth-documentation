@@ -34,11 +34,13 @@ function entityFaker(){
 
 class App {
 	constructor(numPosts, numPeople, numCompanies){
-		this.story = {
-			"codingTheHumanities": {
+		this.story = [
+			{
+				"title": "Coding The Humanities",
 				"content": entityFaker(),
 			},
-			"exporation": {
+			{
+				"title": "Exporation",
 				"content": entityFaker(),
 				"pages": {
 					"cth": entityFaker(),
@@ -46,15 +48,17 @@ class App {
 					"ast": entityFaker()
 				}
 			},
-			"research": {
+			{
+				"title": "Research", 
 				"content": entityFaker(),
-				"blog":[]
+				"blog":[],
 				"pages": {
 					"augM": entityFaker(),
 					"hdat": entityFaker()
 				}
 			},
-			"interfaces": {
+			{
+				"title": "Interfaces",
 				"content": entityFaker(),
 				"pages": {
 					"iteration-one": entityFaker(),
@@ -62,13 +66,18 @@ class App {
 					"iteration-three": entityFaker()
 				}
 			},
-			"partners": {
+			{
+				"title": "Partners",
 				"content": entityFaker(),
 				"visualisation": {}
+			},
+			{
+				"title": "About",
+				"content": entityFaker()
 			}
-		};
+		];
 		for (var i = 0; i < numPosts; i++){
-			this.story.research.blog.push(entityFaker());
+			this.story[2].blog.push(entityFaker());
 		}
 	}
 }

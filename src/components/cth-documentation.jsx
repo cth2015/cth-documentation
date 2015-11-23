@@ -16,9 +16,9 @@ class CthDocumentation extends React.Component{
 		let appData = this.state.appData;
  		return (
  			<div className="app-container">
- 				<Navigation />
+ 				<Navigation items={appData.story}/>
  				{appData.story.map(function(item, key){
- 					return (<Item key={key} content={item.content}/>)
+ 					return (<Item key={key} item={item}/>)
  				})}
  				<Footer />
 			</div>

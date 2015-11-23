@@ -2,13 +2,11 @@ import React from 'react';
 
 class Item extends React.Component{
     render() {
-    	let post = this.props.post;
+    	let item = this.props.item;
  		return (
  			<div> 
- 				<h1>{content.name}</h1>
- 				<h5>{content.author}</h5>
- 				<h5>{content.date.toDateString()}</h5>
- 				<p> {content.content}</p>
+ 				<h1>{item.title}</h1>
+ 				<p> {item.content.content}</p>
  			</div>
  		)
  	}
