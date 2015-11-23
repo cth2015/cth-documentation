@@ -6,7 +6,7 @@ class Navigation extends React.Component{
  		return (
  			<nav className="nav-top">
  				{items.map((item, key)=>{
- 					return	<a key={key} href={item.content.link}>{item.title}</a>
+ 					return	<a className="nav-link" key={key} href={item.link}>{item.title}</a>
  				})}
  			</nav>
  		)
