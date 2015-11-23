@@ -1,6 +1,6 @@
 import React from 'react';
 
-class PeopleContainer extends React.Component{
+class People extends React.Component{
     render() {
  		return (
  			<div className="people-container">
@@ -15,4 +15,4 @@ class PeopleContainer extends React.Component{
  	}
 }
 
-export default PeopleContainer;
+export default People;

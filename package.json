@@ -91,6 +91,7 @@
     "react-intro-tour": "0.0.7",
     "react-leaflet": "^0.8.0",
     "react-masonry-component": "^2.0.0",
+    "react-router": "^1.0.0",
     "react-tools": "^0.13.0-rc1",
     "react-wysiwyg": "^2.1.7",
     "require-dot-file": "^0.4.0",

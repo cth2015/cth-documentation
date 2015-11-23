@@ -1,6 +1,6 @@
 import React from 'react';
 
-class PageButtonContainer extends React.Component{
+class Buttons extends React.Component{
     render() {
 		let pages = this.props.pages;
  		return (
@@ -14,4 +14,4 @@ class PageButtonContainer extends React.Component{
  	}
 }
 
-export default PageButtonContainer;
+export default Buttons;

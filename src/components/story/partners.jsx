@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Visualization extends React.Component{
+class Partners extends React.Component{
     render() {
  		return (
  			<div className="visualization"> 
@@ -10,4 +10,4 @@ class Visualization extends React.Component{
  	}
 }
 
-export default Visualization;
+export default Partners;
