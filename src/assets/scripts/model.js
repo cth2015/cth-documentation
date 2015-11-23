@@ -25,7 +25,7 @@ function entityFaker(){
 		["nomination", "Rijksmuseum"],
 		faker.lorem.sentences(2),
 		faker.lorem.paragraphs(5),
-		faker.image.cats(1440, 720),
+		faker.image.imageUrl(faker.random.number({min: 1080, max: 1440}), 720),
 		faker.internet.url(),
 		[faker.name.firstName() + " " + faker.name.lastName(), faker.name.firstName() + faker.name.lastName()],
 		faker.random.number(5)

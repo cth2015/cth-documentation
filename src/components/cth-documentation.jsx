@@ -9,7 +9,6 @@ class CthDocumentation extends React.Component{
 	constructor(props){
 		super(props);
 		this.state = { appData: new App(5, 20, 10) };
-		console.log('constructor', this.state.appData);
 	}
 
     render() {
