@@ -4,7 +4,7 @@ import appData from '../assets/data/story.json'
 
 import Navigation from "./navigation/navigation-top.jsx"
 import Footer from "./footer/footer.jsx"
-import Item from "./post/item.jsx"
+import Item from "./items/item.jsx"
 
 class CthDocumentation extends React.Component{
 	constructor(props){

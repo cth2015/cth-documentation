@@ -1,8 +1,11 @@
 @import '../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
 @import 'variables';
-@import 'items';
+@import 'item';
 @import 'nav';
 @import 'footer';
+@import 'visualization';
+@import 'page-buttons';
+
 
 body {
 	width: 100%;
