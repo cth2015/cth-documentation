@@ -1,5 +1,6 @@
 import React from 'react';
-import {App, Entity} from "../assets/scripts/model.js";
+
+import app from '../assets/data/story.json'
 
 import Navigation from "./navigation/navigation-top.jsx"
 import Footer from "./footer/footer.jsx"
