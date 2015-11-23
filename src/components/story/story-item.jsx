@@ -7,8 +7,10 @@ import People from './people.jsx';
 class StoryItem extends React.Component{
     render() {
     	let item = this.props.item;
+		let backgroundStyle = item.image ? { backgroundImage: "url(" + item.image + ")" } : {};
+
  		return (
- 			<div className={"item " + item.link} style={{backgroundImage: "url(" + item.image + ")"}}> 
+ 			<div className={"item " + item.link} style={backgroundStyle}> 
  				<div className="item-info-container">
 	 				{item.title && <h1 className="item-info-header">{item.title}</h1> }
 	 				{item.text && <p className="item-info-text"> {item.text}</p>}

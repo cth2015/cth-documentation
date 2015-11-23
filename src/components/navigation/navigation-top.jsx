@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class Navigation extends React.Component{
     render() {
@@ -6,7 +7,7 @@ class Navigation extends React.Component{
  		return (
  			<nav className="nav-top">
  				{items.map((item, key)=>{
- 					return	<a className="nav-link" key={key} href={item.link}>{item.title}</a>
+ 					return	<Link className="nav-link" key={key} to={item.link}>{item.title}</Link>
  				})}
  			</nav>
  		)
