@@ -1,11 +1,13 @@
 @import '../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
-@import 'variables';
-@import 'item';
-@import 'nav';
-@import 'footer';
-@import 'visualization';
-@import 'page-buttons';
-@import 'about';
+@import 'global/variables';
+@import 'global/typography';
+@import 'story/item';
+@import 'navigation/nav';
+@import 'navigation/footer';
+@import 'story/visualization';
+@import 'story/page-buttons';
+@import 'story/about';
+@import 'pages/page';
 
 
 body {

@@ -1,5 +1,7 @@
 .item {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	min-height: 100%;
 	border-bottom: black solid 20px;
@@ -19,19 +21,20 @@
 	color: white;
 }
 
-.coding-the-humanities {
-	align-items: flex-end;
-	justify-content: flex-end;
-}
+// .coding-the-humanities {
+// 	align-items: flex-end;
+// 	justify-content: flex-end;
+// }
 
-.research {
-	justify-content: center;
-}
+// .research {
+// 	justify-content: center;
+// }
 
-.interfaces {
-	justify-content: center;
-}
+// .interfaces {
+// 	justify-content: center;
+// }
 
 .partners {
 	flex-wrap: wrap;
 }
+

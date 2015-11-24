@@ -4,7 +4,7 @@ import createBrowserHistory from 'history/lib/createBrowserHistory';
 
 import CthDocumentation from "./components/cth-documentation.jsx";
 import Story from "./components/story/story.jsx";
-import Page from "./components/story/story.jsx";
+import Page from "./components/pages/page.jsx";
 
 
 class RouterComponent extends React.Component{
