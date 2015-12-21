@@ -1,17 +1,26 @@
 import React from 'react';
+import Markdown from 'react-remarkable';
 
 import Partners from './partners.jsx';
 import Buttons from './buttons.jsx';
 import People from './people.jsx';
 
+var importedData = {
+	markdown: "# Something cool \n and something else"
+};
+
 class StoryItem extends React.Component{
     render() {
-    	let item = this.props.item;
+    let item = this.props.item;
 		let backgroundStyle = item.image ? { backgroundImage: "url(" + item.image + ")" } : {};
 
  		return (
- 			<div className={"item " + item.link} style={backgroundStyle}> 
+ 			<div className={"item " + item.link} style={backgroundStyle}>
+
+ 				<Markdown source={importedData.markdown} options={ { breaks: true } } />
+
  				<div className="item-info-container">
+ 					
 	 				{item.title && <h1 className="item-info-header">{item.title}</h1> }
 	 				{item.text && <p className="item-info-text"> {item.text}</p>}
  					{item.courses && <Buttons header="Courses" pages={item.courses} /> }

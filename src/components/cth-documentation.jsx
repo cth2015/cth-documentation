@@ -16,7 +16,7 @@ class CthDocumentation extends React.Component{
  		return (
  			<div className="app-container">
  				<Navigation items={appData.story}/>
-        		{this.props.children && React.cloneElement(this.props.children, {appData: appData})}
+      		{this.props.children && React.cloneElement(this.props.children, {appData: appData})}
  				<Footer />
 			</div>
  		);
