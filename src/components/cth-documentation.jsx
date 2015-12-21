@@ -11,7 +11,7 @@ class CthDocumentation extends React.Component{
 		this.state = { appData: appData.app };
 	}
 
-    render() {
+  render() {
 		let appData = this.state.appData;
  		return (
  			<div className="app-container">
@@ -19,7 +19,7 @@ class CthDocumentation extends React.Component{
         		{this.props.children && React.cloneElement(this.props.children, {appData: appData})}
  				<Footer />
 			</div>
- 		)
+ 		);
  	}
 }
 
