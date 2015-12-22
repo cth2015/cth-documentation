@@ -8,16 +8,16 @@
 
 	"blocks": [
 		{
-			"type": "reference/articles",
-			"slug": "when-all-we-have-is-a-hammer" 
+			"type": "reference",
+			"slug": "articles/when-all-we-have-is-a-hammer" 
 		},
 		{
-			"type": "reference/articles",
-			"slug": "blurred-lines" 
+			"type": "reference",
+			"slug": "articles/blurred-lines" 
 		},
 		{
-			"type": "reference/articles",
-			"slug": "sugar-coating-tools" 
+			"type": "reference",
+			"slug": "articles/sugar-coating-tools" 
 		}
 	]
 }

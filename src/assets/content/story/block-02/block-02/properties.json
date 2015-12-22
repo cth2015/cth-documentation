@@ -8,12 +8,12 @@
 
 	"blocks": [
 		{
-			"type": "reference/projects",
-			"slug": "art-science-technology-i" 
+			"type": "reference",
+			"slug": "projects/art-science-technology-i" 
 		},
 		{
-			"type": "reference/projects",
-			"slug": "coding-the-humanities-pilot" 
+			"type": "reference",
+			"slug": "projects/coding-the-humanities-pilot" 
 		}
 	]
 }
