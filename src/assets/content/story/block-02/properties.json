@@ -1,0 +1,22 @@
+{
+	"blocks": [
+		{
+			"type": "dir",
+			"source": "block-01"
+		},
+		{
+			"type": "dir",
+			"source": "block-02"
+		},
+		{
+			"type": "dir",
+			"source":"block-03-sidebar"
+		}
+	],
+	"elements":[
+		{	
+			"type": "text/md",
+			"source": "content.md"
+		}
+	]
+}

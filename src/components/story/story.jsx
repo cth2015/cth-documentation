@@ -6,7 +6,7 @@ class Story extends React.Component{
     render() {
  		return (
  			<main className="story"> 
- 				{this.props.appData.story.map(function(item, key){
+ 				{this.props.app.story.map(function(item, key){
  					return (<StoryItem key={key} item={item}/>)
  				})}
  			</main>

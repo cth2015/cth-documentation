@@ -1,3 +1,8 @@
 {
-	"visualisation": "data"
+	"blocks": [
+		"visualisation"
+	],
+	"elements": [
+		{ "content": "content.md" }
+	]
 }

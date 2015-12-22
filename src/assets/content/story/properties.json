@@ -1,0 +1,12 @@
+{
+	"blocks": [
+		{
+			"type": "dir",
+			"source": "block-01-header"
+		},
+		{
+			"type": "dir",
+			"source": "block-02"
+		},
+	]
+}

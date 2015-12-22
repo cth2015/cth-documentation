@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"type": "article",
+			"slug": "when-all-we-have-is-a-hammer" 
+		},
+		{
+			"type": "article",
+			"slug": "blurred-lines" 
+		},
+		{
+			"type": "article",
+			"slug": "sugar-coating-tools" 
+		}
+	]
+}

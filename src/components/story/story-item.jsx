@@ -8,7 +8,7 @@ import People from './people.jsx';
 var importedData = {
 	markdown: "# Something cool \n and something else"
 };
-
+	
 class StoryItem extends React.Component{
     render() {
     let item = this.props.item;
@@ -16,20 +16,9 @@ class StoryItem extends React.Component{
 
  		return (
  			<div className={"item " + item.link} style={backgroundStyle}>
-
- 				<Markdown source={importedData.markdown} options={ { breaks: true } } />
-
  				<div className="item-info-container">
- 					
-	 				{item.title && <h1 className="item-info-header">{item.title}</h1> }
-	 				{item.text && <p className="item-info-text"> {item.text}</p>}
- 					{item.courses && <Buttons header="Courses" pages={item.courses} /> }
- 					{item.projects && <Buttons header="Projects" pages={item.projects} /> }
- 					{item.iterations && <Buttons header="Iterations" pages={item.iterations} /> }
- 					{item.blog && <Buttons header="Blog" pages={item.blog} /> }
- 					{item.people && <People header="People" people={item.people} /> }
+ 					<Markdown source={importedData.markdown} options={ { container: false, breaks: true } } />
  				</div>
- 				{item.visualization && <Partners vizData={item.visualization} />}
  			</div>
  		)
  	}
