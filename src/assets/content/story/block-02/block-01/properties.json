@@ -1,5 +1,8 @@
 {
-	"elements":[
-		{"content": "content.md"}
+	"elements": [
+		{	
+			"type": "text/md",
+			"source": "content.md"
+		}
 	]
 }

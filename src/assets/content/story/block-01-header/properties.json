@@ -1,8 +1,15 @@
 {
-	"blocks": [
-		"visualisation"
-	],
+	
 	"elements": [
-		{ "content": "content.md" }
+		{	
+			"type": "text/md",
+			"source": "content.md"
+		}
+	],
+	"blocks": [
+		{	
+			"type": "directory",
+			"source": "visualisation"
+		}
 	]
 }

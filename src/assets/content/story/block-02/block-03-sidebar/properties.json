@@ -1,15 +1,22 @@
 {
 	"elements": [
+		{	
+			"type": "text/md",
+			"source": "content.md"
+		}
+	],
+
+	"blocks": [
 		{
-			"type": "article",
+			"type": "reference/articles",
 			"slug": "when-all-we-have-is-a-hammer" 
 		},
 		{
-			"type": "article",
+			"type": "reference/articles",
 			"slug": "blurred-lines" 
 		},
 		{
-			"type": "article",
+			"type": "reference/articles",
 			"slug": "sugar-coating-tools" 
 		}
 	]
