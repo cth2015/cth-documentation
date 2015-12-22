@@ -1,5 +1,8 @@
 {
 	"elements": [
-		"visualisation-data.json"
+		{	
+			"type": "text/md",
+			"source": "content.md"
+		}
 	]
 }
