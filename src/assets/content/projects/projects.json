@@ -1,14 +1,12 @@
 {
-	"projects": {
-		"art-science-technology-i": {
-			"title": "Art, Science and Technology I",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum assumenda iusto quasi dolorum.",
-			"link": "projects/art-science-technology-i"
-		},
-		"coding-the-humanities-pilot": {
-			"title": "Coding The Humanities Pilot",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum assumenda iusto quasi dolorum.",
-			"link": "projects/coding-the-humanities-pilot"
-		}
+	"art-science-technology-i": {
+		"title": "Art, Science and Technology I",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum assumenda iusto quasi dolorum.",
+		"link": "projects/art-science-technology-i"
+	},
+	"coding-the-humanities-pilot": {
+		"title": "Coding The Humanities Pilot",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum assumenda iusto quasi dolorum.",
+		"link": "projects/coding-the-humanities-pilot"
 	}
 }

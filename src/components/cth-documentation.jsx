@@ -3,17 +3,13 @@ import React from 'react';
 import Navigation from "./navigation/navigation-top.jsx"
 import Footer from "./footer/footer.jsx"
 
-import some from '../assets/content/story/properties.json';
-
-console.log(some);
+import data from '../assets/content/data-constructor.js';
 
 class CthDocumentation extends React.Component{
 	constructor(props){
 		super(props);
 		this.state = { 
-			app: {
-				story: ["something"]
-			},
+			data: data,
 			navigation: ["Coding the Humanities", "From Content to Context", "... to Curation", "... to Facilitation", "Partners", "About", ]
 		};
 	}
@@ -22,7 +18,7 @@ class CthDocumentation extends React.Component{
  		return (
  			<div className="app-container">
  				<Navigation items={this.state.navigation}/>
-      	{this.props.children && React.cloneElement(this.props.children, {app: this.state.app})}
+      	{this.props.children && React.cloneElement(this.props.children, {app: this.state.data})}
  				<Footer />
 			</div>
  		);

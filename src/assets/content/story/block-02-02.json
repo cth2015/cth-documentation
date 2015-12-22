@@ -1,11 +1,9 @@
 {
 	"references": [
 		{
-			"type": "reference",
 			"slug": "projects/art-science-technology-i" 
 		},
 		{
-			"type": "reference",
 			"slug": "projects/coding-the-humanities-pilot" 
 		}
 	]
