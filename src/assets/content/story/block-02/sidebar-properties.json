@@ -1,1 +1,22 @@
-somethun.md
+{
+	"articles": {
+		"when-all-we-have-is-a-hammer": {
+			"title": "When All We Have Is a Hammer",
+			"author": "Jan Hein Hoogstad",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum assumenda iusto quasi dolorum.",
+			"link": "articles/when-all-we-have-is-a-hammer"
+		},
+		"blurred-lines": {
+			"title": "Blurred Lines",
+			"author": "Charlotte van Oostrum",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum assumenda iusto quasi dolorum.",
+			"link": "articles/blurred-lines"
+		},
+		"sugar-coating-tools": {
+			"title": "Sugar Coating Tools",
+			"author": "Marijn Koolen",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum assumenda iusto quasi dolorum.",
+			"link": "articles/sugar-coating-tools"
+		}
+	}
+}

@@ -13,10 +13,10 @@ class RouterComponent extends React.Component{
 		  	<Router history={createBrowserHistory()}>
 		    	<Route path="/" component={CthDocumentation}>
 					<IndexRoute component={Story} />
-					<Route path="course/:id" component={Page} />
-					<Route path="article/:id" component={Page} />
-					<Route path="project/:id" component={Page} />
-					<Route path="iteration/:id" component={Page} />
+					<Route path="courses/:id" component={Page} />
+					<Route path="articles/:id" component={Page} />
+					<Route path="projects/:id" component={Page} />
+					<Route path="iterations/:id" component={Page} />
 		    	</Route>
 		  	</Router>
 		);
