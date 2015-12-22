@@ -1,1 +1,12 @@
-somethun.md
+{
+	"course": {
+		"art-science-technology-i": {
+			"title": "Art, Science and Technology I",
+			"link": "course/art-science-technology-i"
+		},
+		"coding-the-humanities-pilot": {
+			"title": "Coding The Humanities Pilot",
+			"link": "course/coding-the-humanities-pilot"
+		}
+	}
+}
