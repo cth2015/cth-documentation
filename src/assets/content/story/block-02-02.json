@@ -1,12 +1,5 @@
 {
-	"elements": [
-		{	
-			"type": "text/md",
-			"source": "content.md"
-		}
-	],
-
-	"blocks": [
+	"references": [
 		{
 			"type": "reference",
 			"slug": "projects/art-science-technology-i" 

@@ -1,20 +1,11 @@
 import React from 'react';
 
-import appData from '../assets/data/story.json'
-
 import Navigation from "./navigation/navigation-top.jsx"
 import Footer from "./footer/footer.jsx"
 
-import fs from 'fs';
+import some from '../assets/content/story/properties.json';
 
-
-
-// var storyData = {
-// 	"block-01-header": {
-// 		"conclusion": 
-
-// 	}
-// }
+console.log(some);
 
 class CthDocumentation extends React.Component{
 	constructor(props){

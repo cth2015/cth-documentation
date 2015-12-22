@@ -1,10 +1,6 @@
 import React from 'react';
 import Markdown from 'react-remarkable';
 
-import Partners from './partners.jsx';
-import Buttons from './buttons.jsx';
-import People from './people.jsx';
-
 var importedData = {
 	markdown: "# Something cool \n and something else"
 };

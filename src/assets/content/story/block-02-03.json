@@ -1,22 +1,12 @@
 {
-	"elements": [
-		{	
-			"type": "text/md",
-			"source": "content.md"
-		}
-	],
-
-	"blocks": [
+	"references": [
 		{
-			"type": "reference",
 			"slug": "articles/when-all-we-have-is-a-hammer" 
 		},
 		{
-			"type": "reference",
 			"slug": "articles/blurred-lines" 
 		},
 		{
-			"type": "reference",
 			"slug": "articles/sugar-coating-tools" 
 		}
 	]
