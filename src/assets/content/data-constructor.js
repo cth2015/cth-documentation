@@ -1,4 +1,5 @@
 import block01 from './story/block-01.md';
+import block01Data from './story/block-01.json';
 import block02 from './story/block-02.md';
 import block0201 from './story/block-02-01.md';
 import block0202 from './story/block-02-02.md';
@@ -11,7 +12,8 @@ import projects from './projects/projects.json';
 
 let story = [
 	{
-		content: block01
+		content: block01,
+		visualisation: block01Data
 	},
 	{
 		content: block02,
@@ -21,11 +23,11 @@ let story = [
 			},
 			{
 				content: block0202,
-				references: block0202Data.references
+				data: block0202Data
 			},
 			{
 				content: block0203,
-				references: block0203Data.references
+				data: block0203Data
 			}
 		]
 	}

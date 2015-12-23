@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 	width: 100%;
 	min-height: 100%;
 	padding: 0 15px;
@@ -12,8 +13,19 @@
 
 .block {
 	@include clearfix;
+	width: 60%
+}
+
+.block.references {
+	background: red;
+}
+
+.block.sidebar {
+	width: 60%;
 }
 
 .reference {
 	@include make-sm-column(4);
+	background: black;
+	color: white;
 }
