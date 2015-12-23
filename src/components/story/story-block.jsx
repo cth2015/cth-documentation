@@ -7,7 +7,7 @@ class StoryBlock extends React.Component{
   render() {
     let item = this.props.item;
  		return (
- 			<div className={"item " + item.link}>
+ 			<div className={"block " + item.link}>
 				<Markdown source={item.content} options={ { container: false, breaks: true } } />
  				{item.references ? item.references.map(function(item, key){
  					return (<StoryReference key={key} item={item}/>)

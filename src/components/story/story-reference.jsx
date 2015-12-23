@@ -5,7 +5,7 @@ class StoryReference extends React.Component{
   render() {
     let item = this.props.item;
  		return (
- 			<div className={"item " + item.link}>
+ 			<div className={"reference " + item.link}>
 				reference
  			</div>
  		)
