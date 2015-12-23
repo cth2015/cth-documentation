@@ -9,9 +9,9 @@ class StoryItem extends React.Component{
  		return (
  			<div className={"item " + item.link}>
 				<Markdown source={item.content} options={ { container: false, breaks: true } } />
- 				{item.blocks.map(function(item, key){
+ 				{item.blocks ? item.blocks.map(function(item, key){
  					return (<StoryBlock key={key} item={item}/>)
- 				})}
+ 				}): <div />}
  			</div>
  		)
  	}

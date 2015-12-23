@@ -21,11 +21,11 @@ let story = [
 			},
 			{
 				content: block0202,
-				references: block0202Data
+				references: block0202Data.references
 			},
 			{
 				content: block0203,
-				references: block0203Data
+				references: block0203Data.references
 			}
 		]
 	}
