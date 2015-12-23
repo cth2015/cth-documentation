@@ -17,11 +17,9 @@ class StoryBlock extends React.Component{
           container: false, 
           breaks: true 
         }} />
-
- 				  { block.data.references && block.data.references.map(function(reference, key){
- 					  return (<StoryReference key={key} app={app} reference={reference}/>)
- 				  })}
-          
+			  { block.data.references && block.data.references.map(function(reference, key){
+				  return (<StoryReference key={key} app={app} reference={reference}/>)
+			  })}
  			</div>
  		)
  	}

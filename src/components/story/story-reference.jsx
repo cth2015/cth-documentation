@@ -7,7 +7,7 @@ class StoryReference extends React.Component{
     let reference = this.props.reference;
   	let referenceFull = (app.articles[reference.slug] &&  app.articles[reference.slug]) || (app.projects[reference.slug] &&  app.projects[reference.slug]);
  		return (
- 			<div className={"reference"}>
+ 			<div className="reference">
 				<h3> {referenceFull.title} </h3>
 				<p> {referenceFull.author} </p>
 				<p> {referenceFull.description} <a> ... meer </a></p>
