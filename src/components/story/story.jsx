@@ -3,7 +3,8 @@ import React from 'react';
 import StoryItem from "./story-item.jsx"
 
 class Story extends React.Component{
-    render() {
+  render() {
+  	console.log(this.props.app.story)
  		return (
  			<main className="story"> 
  				{this.props.app.story.map(function(item, key){
@@ -11,7 +12,7 @@ class Story extends React.Component{
  				})}
  			</main>
  		)
- 	}
+	}
 }
 
 export default Story;
