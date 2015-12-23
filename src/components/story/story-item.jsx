@@ -6,12 +6,10 @@ var importedData = {
 };
 	
 class StoryItem extends React.Component{
-    render() {
+  render() {
     let item = this.props.item;
-		// let backgroundStyle = item.image ? { backgroundImage: "url(" + item.image + ")" } : {};
-
  		return (
- 			<div className={"item " + item.link} style={backgroundStyle}>
+ 			<div className={"item " + item.link}>
  				<div className="item-info-container">
  					<Markdown source={item.content} options={ { container: false, breaks: true } } />
  				</div>
