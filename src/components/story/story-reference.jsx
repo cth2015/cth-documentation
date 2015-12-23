@@ -10,7 +10,7 @@ class StoryReference extends React.Component{
  			<div className={"reference " + item.link}>
 				<h3> {reference.title} </h3>
 				<p> {reference.author} </p>
-				<p> {reference.description} </p>
+				<p> {reference.description} <a> ... meer</a></p>
  			</div>
  		)
  	}

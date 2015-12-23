@@ -11,6 +11,21 @@
 	background-position: center center;
 }
 
+.item .visualisation {
+	width: 90%;
+	height: 50%;
+	background: red;
+}
+
+.item .conclusion {
+	width: 90%;
+	background: yellow;
+}
+
+.item.head .conclusion {
+	background: red;
+}
+
 .block {
 	@include clearfix;
 	width: 60%
@@ -21,8 +36,11 @@
 }
 
 .block.sidebar {
+	background: grey;
 	width: 60%;
 }
+
+
 
 .reference {
 	@include make-sm-column(4);
