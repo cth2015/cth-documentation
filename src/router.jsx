@@ -12,11 +12,18 @@ class RouterComponent extends React.Component{
 		return (
 		  	<Router history={createBrowserHistory()}>
 		    	<Route path="/" component={CthDocumentation}>
-					<IndexRoute component={Story} />
-					<Route path="courses/:id" component={Page} />
-					<Route path="articles/:id" component={Page} />
-					<Route path="projects/:id" component={Page} />
-					<Route path="iterations/:id" component={Page} />
+						<IndexRoute component={Story} />
+						<Route path="courses/:id" component={Page} />
+						<Route path="articles/:id" component={Page} />
+						<Route path="projects/:id" component={Page} />
+						<Route path="iterations/:id" component={Page} />
+		    	</Route>
+		    	<Route path="/cth-documentation" component={CthDocumentation}>
+						<IndexRoute component={Story} />
+						<Route path="courses/:id" component={Page} />
+						<Route path="articles/:id" component={Page} />
+						<Route path="projects/:id" component={Page} />
+						<Route path="iterations/:id" component={Page} />
 		    	</Route>
 		  	</Router>
 		);

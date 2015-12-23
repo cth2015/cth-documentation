@@ -1,3 +1,3 @@
 # From Content to Context
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum assumenda iusto quasi dolorum, fugiat rem enim unde ipsam repellat, odit commodi saepe sequi illo reiciendis possimus molestias alias culpa aliquam.
+Schools and universities don’t leverage students’ knowledge and existing (online) information. They waste resources, and degrees become increasingly expensive.

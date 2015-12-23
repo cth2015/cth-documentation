@@ -1,5 +1,5 @@
-## Lets Improve Learning
+## The Alternative Classroom
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima nesciunt nulla explicabo quia vero ea magni soluta reprehenderit alias quidem ullam, in nam perferendis, tenetur facilis reiciendis, sed impedit!
+Imagine two classrooms. In the first classroom, you see a teacher surrounded by students. <wasteful> In the second classroom, you see people. People who are teaching and learning from each other. <optimal use> Traditional education is modelled after the first classroom. Resources are wasted, and degrees become more and more expensive. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, distinctio atque architecto facilis enim libero obcaecati animi magnam possimus tempore est minus quas natus porro labore asperiores laboriosam, sequi id!
+On [date], in [Wassenaar] during [conference], Marijn Koolen and Jan Hein Hoogstad imagined their own classroom: a collaborative space where they would leverage the resources in our classroom by searching, sorting and sharing the knowledge of each person in that group. With a grant from [department] of the University of Amsterdam, they founded what would become Coding the Humanities.
