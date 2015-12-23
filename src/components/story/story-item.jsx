@@ -13,12 +13,12 @@ class StoryItem extends React.Component{
  		return (
  			<div className={itemClasses}>
  				<div className="column-left">
-					<StoryBlock app={app} item={item.blocks[0]}/>
-					<StoryBlock app={app} item={item.blocks[1]}/>
-					<StoryBlock app={app} item={item.blocks[2]}/>
+					<StoryBlock app={app} block={item.blocks[0]}/>
+					<StoryBlock app={app} block={item.blocks[1]}/>
+					<StoryBlock app={app} block={item.blocks[2]}/>
 				</div>
  				<div className="column-right">
-					<StoryBlock app={app} item={item.blocks[3]}/>
+					<StoryBlock app={app} block={item.blocks[3]}/>
  				</div>
  			</div>
  		)

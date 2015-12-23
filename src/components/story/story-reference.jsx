@@ -4,13 +4,13 @@ import Markdown from 'react-remarkable';
 class StoryReference extends React.Component{
   render() {
   	let app = this.props.app;
-    let item = this.props.item;
-  	let reference = (app.articles[item.slug] &&  app.articles[item.slug]) || (app.projects[item.slug] &&  app.projects[item.slug]);
+    let reference = this.props.reference;
+  	let referenceFull = (app.articles[reference.slug] &&  app.articles[reference.slug]) || (app.projects[reference.slug] &&  app.projects[reference.slug]);
  		return (
  			<div className={"reference"}>
-				<h3> {reference.title} </h3>
-				<p> {reference.author} </p>
-				<p> {reference.description} <a> ... meer </a></p>
+				<h3> {referenceFull.title} </h3>
+				<p> {referenceFull.author} </p>
+				<p> {referenceFull.description} <a> ... meer </a></p>
  			</div>
  		)
  	}

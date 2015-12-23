@@ -60,13 +60,16 @@
 }
 
 .reference {
-	@include make-sm-column(4);
 	background: black;
 	color: white;
+	width: 29%;
+	margin-right: 4%;
+	margin-bottom: 2.5%;
+	padding: 15px;
+	float: right;
 }
 
 .sidebar .reference {
-	width: 100%;
-	background: black;
-	color: white;
+	width: 96%;
+	margin-right: 0;
 }
