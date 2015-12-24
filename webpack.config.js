@@ -29,7 +29,7 @@ var config = {
       { test: /\.(js|jsx)$/, loaders: ['react-hot', 'babel?experimental'], exclude: /node_modules/},
       { test: /\.(js|jsx)$/, loader: "eslint-loader", exclude: /node_modules/},
       { test: /\.json$/, loader: 'json' },
-      { test: /\.yml$/, loader: 'json!yaml' },
+      { test: /\.yaml$/, loader: 'json!yaml' },
       { test: /\.scss$/, loader: 'style!css!autoprefixer!sass' },
       { test: /\.md$/, loader: 'raw' },
       { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }

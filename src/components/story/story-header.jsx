@@ -9,12 +9,12 @@ class StoryItem extends React.Component{
     let item = this.props.item;
     let itemClasses = [
     	"item",
-    	item.data.type
+    	item.type
     ].join(' ');
  		return (
  			<div className={itemClasses}>
 				<div className="visualisation"> 
-					<p>viz</p>
+					<p>synthesis</p>
 				</div>
  				<div className="conclusion">
 					<Markdown source={item.content} options={{ 
