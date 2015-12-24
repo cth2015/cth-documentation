@@ -10,21 +10,17 @@
 	@include clearfix;
 }
 
-.item.head .visualisation {
+.item.header .visualisation {
 	width: 90%;
 	height: 50%;
 	background: red;
 }
 
-.item.head .conclusion {
+.item.header .block-red {
 	width: 90%;
 	background: red;
 }
 
-.item .conclusion {
-	background: yellow;
-	padding: 15px;
-}
 
 .item .column-left {
 	display: flex;
@@ -47,6 +43,10 @@
 	margin-bottom: 5%;
 }
 
+.block-yellow {
+	background: yellow;
+}
+
 .block-aquamarine {
 	background: aquamarine;
 }
@@ -55,7 +55,7 @@
 	background: orange;
 }
 
-.block.sidebar {
+.block-grey {
 	background: grey;
 }
 
@@ -69,7 +69,7 @@
 	float: right;
 }
 
-.sidebar .reference {
+.block-grey .reference {
 	width: 96%;
 	margin-right: 0;
 	float: none;

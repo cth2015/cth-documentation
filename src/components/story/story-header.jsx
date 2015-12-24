@@ -16,7 +16,7 @@ class StoryItem extends React.Component{
 				<div className="visualisation"> 
 					<p>synthesis</p>
 				</div>
- 				<div className="conclusion">
+ 				<div className="block-red">
 					<Markdown source={item.content} options={{ 
 						container: false, 
 						breaks: true 
