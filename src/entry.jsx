@@ -7,4 +7,5 @@ import CthDocumentation from "./components/cth-documentation.jsx";
 import RouterComponent from "./router.jsx";
 
 let container = document.querySelector('.app-react-container');
+
 ReactDOM.render(<RouterComponent />, container);
